@@ -4,11 +4,10 @@ import PageOneContent from "./PageOneContent.jsx";
 
 const Section1 = ({users}) => {
     return (
-        <div className=" h-screen w-full flex flex-col">
+        <div className="h-screen w-full flex flex-col">
             <Navbar/>
-            <PageOneContent user={users}/>
+            <PageOneContent users={users}/>
         </div>
-
     )
 }
 export default Section1
